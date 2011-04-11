@@ -81,7 +81,7 @@ Here's the list of relevant files as a tree-view:
 │   │   └── mail_forms
 │   │       └── contact.rb
 │   │   ...
-│  └── views
+│   └── views
 │       └── mail_forms
 │           └── contact
 │               └── new.html.erb
