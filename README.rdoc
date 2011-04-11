@@ -55,7 +55,7 @@ digitize books, newspapers and old time radio shows.
    	 rails s 
 
    Point your browser to 
-         firefox http://localhost/contact
+         firefox http://localhost:3000/contact
 
 
 Enjoy!
