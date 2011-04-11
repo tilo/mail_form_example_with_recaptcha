@@ -12,11 +12,11 @@ The mail_form gem allows you to create forms directly in Rails 3 without a datab
 As soon as you submit the form, it get emailed to an address you specify.
 
 You might have read about the mail_form gem either on the web or in the book "Crafting Rails Applications".
- * link:https://github.com/plataformatec/mail_form
+ * https://github.com/plataformatec/mail_form
  * http://pragprog.com/titles/jvrails/crafting-rails-applications
 
 Unfortunately this example is incomplete:
- * link:http://www.arailsdemo.com/posts/43
+ * http://www.arailsdemo.com/posts/43
 
 == reCaptcha Gem
 
@@ -24,19 +24,19 @@ The recaptcha gem allows you to make sure that a human (not a bot) is submitting
 The recaptcha gem uses Google's ReCAPTCHA service.  ReCAPTCHA is a free CAPTCHA service that helps to 
 digitize books, newspapers and old time radio shows.
 
-  * link:https://github.com/ambethia/recaptcha
-  * link:http://www.google.com/recaptcha/learnmore
-  * link:https://www.google.com/recaptcha/admin/create
+  * https://github.com/ambethia/recaptcha
+  * http://www.google.com/recaptcha/learnmore
+  * https://www.google.com/recaptcha/admin/create
 
 == Getting Started
 
 1. Clone this repository
-       <tt>gem clone git://github.com/tilo/mail_form_example_with_recaptcha.git</tt>
+       gem clone git://github.com/tilo/mail_form_example_with_recaptcha.git
 
 2. Set-Up a reCaptcha account with Google
    By default, your reCAPTCHA key is restricted to the specified domain, and any subdomains for additional security. 
    This is why you need to sign-up, to get your API-key for your specific domain.
-       <tt>link:https://www.google.com/recaptcha/admin/create</tt>
+       https://www.google.com/recaptcha/admin/create
 
 3. Customize this example to fit your needs:
    * add your reCaptcha account information
