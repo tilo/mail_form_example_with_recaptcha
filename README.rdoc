@@ -61,7 +61,7 @@ digitize books, newspapers and old time radio shows.
 Enjoy!
 
 == Appendix
-   Here's the list of relevant files:
+Here's the list of relevant files as a tree-view:
 
 <pre>
 .
