@@ -33,12 +33,16 @@ digitize books, newspapers and old time radio shows.
 1. Clone this repository
        gem clone git://github.com/tilo/mail_form_example_with_recaptcha.git
 
-2. Set-Up a reCaptcha account with Google
+2. Check your Gemfile and install the Gems
+       emacs Gemfile
+       bundle install
+
+3. Set-Up a reCaptcha account with Google
    By default, your reCAPTCHA key is restricted to the specified domain, and any subdomains for additional security. 
    This is why you need to sign-up, to get your API-key for your specific domain.
        https://www.google.com/recaptcha/admin/create
 
-3. Customize this example to fit your needs:
+4. Customize this example to fit your needs:
    * add your reCaptcha account information
      emacs config/initializers/recaptcha.rb
 
