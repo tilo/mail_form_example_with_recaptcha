@@ -49,8 +49,8 @@
   </div>
 
   <div class="recaptcha">
-    <%= f.label :recaptcha , Site::ReCaptcha_Prompt  %><br />
-    <%= recaptcha_tags :display => {:theme => Site::ReCaptcha_Theme , :tabindex => '8' } %>
+    <%= f.label :recaptcha , 'Please Type the Two Words:'  %><br />
+    <%= recaptcha_tags :display => {:theme => 'clean' , :tabindex => '8' } %>
   </div>
 
   <div class="actions">
