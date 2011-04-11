@@ -50,7 +50,6 @@ digitize books, newspapers and old time radio shows.
        emacs config/initializers/setup_mail.rb  # add your domain name
        emacs app/models/mail_forms/contact.rb   # add the email address where you want to receive the form data
 
-
 5. Try out the Example
    Start the Rails application:
    	 rails s 
@@ -59,3 +58,4 @@ digitize books, newspapers and old time radio shows.
          firefox http://localhost/contact
 
 
+Enjoy!
