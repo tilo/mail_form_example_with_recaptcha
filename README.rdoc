@@ -44,10 +44,11 @@ digitize books, newspapers and old time radio shows.
 
 4. Customize this example to fit your needs:
    * add your reCaptcha account information
-       emacs config/initializers/recaptcha.rb
+       emacs config/initializers/recaptcha.rb   # add your private and public keys
 
    * add your email settings
-       emacs config/initializers/setup_mail.rb
+       emacs config/initializers/setup_mail.rb  # add your domain name
+       emacs app/models/mail_forms/contact.rb   # add the email address where you want to receive the form data
 
 
 
