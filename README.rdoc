@@ -50,6 +50,12 @@ digitize books, newspapers and old time radio shows.
        emacs config/initializers/setup_mail.rb  
        emacs app/models/mail_forms/contact.rb
 
+  * check Google's instructions on how to customizing the look and feel of reCAPTCHA
+       http://code.google.com/apis/recaptcha/docs/customization.html
+
+  * you might want to change the :theme variable in the view file
+       emacs app/views/mail_forms/contact/new.html.erb
+
 5. Try out the Example
    Start the Rails application:
    	 rails s 
