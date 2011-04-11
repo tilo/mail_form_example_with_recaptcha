@@ -63,6 +63,7 @@ Enjoy!
 == Appendix
    Here's the list of relevant files:
 
+<pre>
 .
 ├── app
 │   ├── controllers
@@ -85,3 +86,5 @@ Enjoy!
 │   │   ├── recaptcha.rb
 │   │   └── setup_mail.rb
 │   │   ...
+
+</pre>
