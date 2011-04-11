@@ -59,3 +59,29 @@ digitize books, newspapers and old time radio shows.
 
 
 Enjoy!
+
+== Appendix
+   Here's the list of relevant files:
+
+.
+├── app
+│   ├── controllers
+│   │   ├── ...
+│   │   └── mail_forms
+│   │       └── contact_controller.rb
+│   │   ...
+│   ├── models
+│   │   └── mail_forms
+│   │       └── contact.rb
+│   │   ...
+│  └── views
+│       └── mail_forms
+│           └── contact
+│               └── new.html.erb
+│   ...
+├── config
+│   │   ...
+│   ├── initializers
+│   │   ├── recaptcha.rb
+│   │   └── setup_mail.rb
+│   │   ...
