@@ -1,4 +1,4 @@
-= Example for using mail_form and reCaptcha in Rails 3
+= Example for using mail_form Gem and reCaptcha Gem in Rails 3
 
 Author:: Tilo Sloboda (http://www.unixgods.org/)
 Copyright:: Copyright (C) 2011 Tilo Sloboda
@@ -9,9 +9,9 @@ Git:: git://github.com/tilo/mail_form_example_with_recaptcha.git
 == mail_form Gem
 
 The mail_form gem allows you to create forms directly in Rails 3 without a database backend. 
-As soon as you submit the form, it get emailed to an address you specify.
+As soon as you submit the form, it gets emailed to an address you specify.
 
-You might have read about the mail_form gem either on the web or in the book "Crafting Rails Applications".
+You might have read about the mail_form gem either on the web or in the Pragmatic Programmer's book "Crafting Rails Applications".
  * https://github.com/plataformatec/mail_form
  * http://pragprog.com/titles/jvrails/crafting-rails-applications
 
@@ -40,7 +40,11 @@ digitize books, newspapers and old time radio shows.
 
 3. Customize this example to fit your needs:
    * add your reCaptcha account information
+     emacs config/initializers/recaptcha.rb
+
    * add your email settings
+     emacs config/initializers/setup_mail.rb
+
 
 
 

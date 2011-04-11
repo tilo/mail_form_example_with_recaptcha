@@ -1,4 +1,8 @@
 MailFormExampleWithRecaptcha::Application.routes.draw do
+
+  get "contact", :to => 'mail_forms/contact#new', :as => 'new_contact'
+  post 'contact', :to => 'mail_forms/contact#create', :as => 'contact'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
