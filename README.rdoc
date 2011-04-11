@@ -1,4 +1,4 @@
-= Example for using mail_form Gem and reCaptcha Gem in Rails 3
+= Simple Example for using mail_form Gem and reCaptcha Gem in Rails 3
 
 Author:: Tilo Sloboda (http://www.unixgods.org/)
 Copyright:: Copyright (C) 2011 Tilo Sloboda
@@ -47,13 +47,13 @@ digitize books, newspapers and old time radio shows.
        emacs config/initializers/recaptcha.rb
 
    * add your email settings / add your domain name and the email address where you want to receive the form data
-       emacs config/initializers/setup_mail.rb  
+       emacs config/initializers/setup_mail.rb
        emacs app/models/mail_forms/contact.rb
 
-  * check Google's instructions on how to customizing the look and feel of reCAPTCHA
+   * check Google's instructions on how to customizing the look and feel of reCAPTCHA
        http://code.google.com/apis/recaptcha/docs/customization.html
 
-  * you might want to change the :theme variable in the view file
+   * you might want to change the :theme variable in the view file
        emacs app/views/mail_forms/contact/new.html.erb
 
 5. Try out the Example
