@@ -17,7 +17,7 @@ module MailForms
 
     def headers
       { :subject => "ContactForm: #{subject}" , 
-        :to => 'YOUREMAIL@YOURDOMAIN.COM'      # substitute the email address where you want to receive the form data!
+        :to => 'YOUREMAIL@YOURDOMAIN.COM'  ,   # substitute the email address where you want to receive the form data!
         :from => %("#{first_name} #{last_name}" <#{email}>)
       }
     end
