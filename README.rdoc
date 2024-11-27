@@ -1,9 +1,7 @@
 = Simple Example for using mail_form Gem and reCaptcha Gem in Rails 3
 
-Author:: Tilo Sloboda (http://www.unixgods.org/)
-Copyright:: Copyright (C) 2011 Tilo Sloboda
 License:: {MIT}[http://creativecommons.org/licenses/MIT/]
-Home:: http://www.unixgods.org/~tilo/Ruby/mail_form_example_with_recaptcha.html
+Home:: http://www.unixgods.org/Ruby/mail_form_example_with_recaptcha.html
 Git:: git://github.com/tilo/mail_form_example_with_recaptcha.git
 
 == mail_form Gem
